@@ -5,6 +5,7 @@ import { useMediaQuery } from '@chakra-ui/media-query';
 import { ReactComponent as Illustration } from '../../assets/about_me.svg'
 import Heading from '../common/Heading';
 import HighlightText from '../common/HighlightText';
+import Bullet from '../common/Bullet';
 
 const AboutMe = () => {
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
@@ -14,19 +15,16 @@ const AboutMe = () => {
       bgColor='gray.800' 
       height='75vh' 
       width='100vw'
-      columns={[6, null, null, 12]}
+      columns={[1, null, null, 2]}
       padding={[10]}
+      spacingX={['1em', null, null, '3em', '6em']}
     >
       {isLarge && (
-        <GridItem colSpan={6}>
-          <Flex maxW='40em' height='full' alignItems='center' justifyContent='center'>
-            <Flex width='30em' height='30em' justifyContent='center'>
-              <Illustration />
-            </Flex>
-          </Flex>
+        <GridItem display='flex' justifyContent='flex-end' alignItems='center'>
+          <Illustration width='32em' height='32em' />
         </GridItem>
       )}
-      <GridItem colSpan={6}>
+      <GridItem display='flex' justifyContent={isLarge ? 'flex-start' : 'center'} alignItems='center'>
         <VStack maxW='30em' height='full' alignItems='center' justifyContent='center' spacing={3}>
           <Heading text="About me" />
           <Text fontSize='sm'>
@@ -39,6 +37,24 @@ const AboutMe = () => {
           <Text>
             Here are a few of the technologies that I've been working with recently:
           </Text>
+          <SimpleGrid
+            columns={[1, null, null, 2]}
+            spacingY={1}
+            width='full'
+          >
+            <GridItem>
+              <Bullet text="Typescript" />
+            </GridItem>
+            <GridItem>
+              <Bullet text="React" />
+            </GridItem>
+            <GridItem>
+              <Bullet text="Go" />
+            </GridItem>
+            <GridItem>
+              <Bullet text="Python" />
+            </GridItem>
+          </SimpleGrid>
         </VStack>
       </GridItem>
     </SimpleGrid>
