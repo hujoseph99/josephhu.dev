@@ -25,7 +25,6 @@ const theme = extendTheme({
       p: {
         fontSize: {
           base: "sm",
-          lg: "md"
         },
         color: "gray.400"
       },
