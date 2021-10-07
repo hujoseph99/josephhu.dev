@@ -15,6 +15,7 @@ const Button = ({
 }: ButtonProps) => (
   <ChakraButton
     color="cyan"
+    borderWidth={2}
     borderColor="cyan"
     variant="outline"
     p={[4, null, 6]}
