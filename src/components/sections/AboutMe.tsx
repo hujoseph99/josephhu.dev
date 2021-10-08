@@ -13,10 +13,10 @@ const AboutMe = () => {
   return (
     <SimpleGrid 
       bgColor='gray.800' 
-      height='75vh' 
       width='100vw'
       columns={[1, null, null, 2]}
       padding={[10]}
+      paddingY="5em"
       spacingX={['1em', null, null, '3em', '6em']}
     >
       {isLarge && (

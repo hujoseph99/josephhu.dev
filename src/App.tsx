@@ -6,6 +6,9 @@ import theme from "./theme";
 import { Hero } from "./components/sections/Hero";
 import 'animate.css';
 import AboutMe from "./components/sections/AboutMe";
+import Experience from "./components/sections/Experience";
+
+import { Box } from '@chakra-ui/layout'
 
 
 export const App = () => (
@@ -13,5 +16,7 @@ export const App = () => (
     {/* <ColorModeSwitcher /> */}
     <Hero />
     <AboutMe />
+    <Experience />
+    <Box height='100vh' />
   </ChakraProvider>
 )

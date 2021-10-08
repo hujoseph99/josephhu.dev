@@ -32,7 +32,7 @@ export const Hero = () => {
 						alignItems='flex-start'
 						maxW='40em'
 					>
-						<Text>👋 Hi, my name is</Text>
+						<Text fontSize='md'>👋 Hi, my name is</Text>
 						<Text 
 							color='cyan' 
 							fontSize={['5xl', null, null, '7xl']} 
@@ -51,7 +51,7 @@ export const Hero = () => {
 						>
 							I build all things web.
 						</Text>
-						<Text mt={4}>
+						<Text mt={4} fontSize='md'>
 							I'm a software engineer that specializes in web development. 
 							I currently work as a full-stack developer at <HighlightText text='Adeptmind' />.
 						</Text>
