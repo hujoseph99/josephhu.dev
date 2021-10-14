@@ -3,16 +3,16 @@ import { HStack, Text } from '@chakra-ui/layout';
 import * as React from 'react';
 
 interface BulletProps {
-  text: string;
+  text: string | JSX.Element;
 };
 
 const Bullet = ({ text = '' }: BulletProps) => (
   <HStack
-   spacing={1}
+   spacing={3}
    display='flex'
-   alignItems='center'
+   alignItems='flex-start'
   >
-    <ChevronRightIcon color="cyan" />
+    <Text color="cyan">&gt;</Text>
     <Text>{text}</Text>
   </HStack>
 );
