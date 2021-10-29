@@ -14,18 +14,19 @@ const AboutMe = () => {
     <SimpleGrid 
       bgColor='gray.800' 
       width='100vw'
+      maxWidth='100%'
       columns={[1, null, null, 2]}
       padding={[10]}
-      paddingY="5em"
-      spacingX={['1em', null, null, '3em', '6em']}
+      paddingY="5rem"
+      spacingX={['1rem', null, null, '3rem', '6rem']}
     >
       {isLarge && (
         <GridItem display='flex' justifyContent='flex-end' alignItems='center'>
-          <Illustration width='32em' height='32em' />
+          <Illustration width='30rem' height='30rem' />
         </GridItem>
       )}
       <GridItem display='flex' justifyContent={isLarge ? 'flex-start' : 'center'} alignItems='center'>
-        <VStack maxW='30em' height='full' alignItems='center' justifyContent='center' spacing={3}>
+        <VStack maxW='30rem' height='full' alignItems='center' justifyContent='center' spacing={3}>
           <Heading text="About me" />
           <Text fontSize='sm'>
             Hello! My name is <HighlightText text="Joseph Hu" /> and I’m currently a fourth 

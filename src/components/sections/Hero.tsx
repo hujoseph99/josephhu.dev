@@ -22,6 +22,7 @@ export const Hero = () => {
 			bgColor='gray.900' 
 			height='100vh' 
 			width='100vw'
+      maxWidth='100%'
 			columns={[6, null, null, 12]}
       padding={[10]}
 		>
@@ -30,7 +31,7 @@ export const Hero = () => {
 					<Flex
 						flexDirection='column'
 						alignItems='flex-start'
-						maxW='40em'
+						maxW='40rem'
 					>
 						<Text fontSize='md'>👋 Hi, my name is</Text>
 						<Text 
@@ -61,12 +62,12 @@ export const Hero = () => {
 			</GridItem>
 			{isLarge && (
 				<GridItem colSpan={6}>
-					<Flex maxW='40em' height='full' alignItems='flex-start'>
+					<Flex maxW='40rem' height='full' alignItems='flex-start'>
 						<Flex width='full' height='full' alignItems='center' justifyContent='center'>
-							<Box position='absolute' width='30em' height='30em' transform='rotate(180deg)'>
+							<Box position='absolute' width='30rem' height='30rem' transform='rotate(180deg)'>
 								<AvatarBlob />
 							</Box>
-							<Box position='absolute' width='15em' height='15em' mb='3em'>
+							<Box position='absolute' width='15rem' height='15rem' mb='3rem'>
 								<Avatar />
 							</Box>
 						</Flex>
@@ -76,8 +77,8 @@ export const Hero = () => {
 			<GridItem colSpan={[6, null, null, 12]} height='20vh'>
 				<Flex width='full' height='full' alignItems='center' justifyContent='center'>
 					<Box 
-						width='2em' 
-						height='4em'
+						width='2rem' 
+						height='4rem'
 						display='flex'
 						justifyContent='center'
 						borderColor='cyan' 
@@ -88,8 +89,8 @@ export const Hero = () => {
 					>
 						<Box 
 							className={hovering ? 'animate__animated animate__fadeOutDown animate__infinite animate__slow' : ''}
-							width='1em' 
-							height='1em' 
+							width='1rem' 
+							height='1rem' 
 							bgColor='cyan' 
 							borderRadius={20} 
 							marginTop={2}

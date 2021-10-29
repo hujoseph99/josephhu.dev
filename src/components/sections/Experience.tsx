@@ -10,15 +10,15 @@ import HighlightText from '../common/HighlightText';
 const Experience = () => (
   <Flex
     width='100vw'
-    maxW='100vw'
+    maxW='100%'
     bgColor="gray.900"
     justifyContent='center'
     alignContent='center'
-    paddingY="5em"
+    paddingY="7rem"
   >
     <VStack>
       <Heading text='Experience' paddingX={10} />
-      <Tabs colorScheme='cyan' width='45em' maxWidth='100vw' paddingX={10} isFitted variant='line'>
+      <Tabs colorScheme='cyan' width='45rem' maxWidth='100vw' paddingX={10} isFitted variant='line'>
         <TabList 
           overflowX='auto'
           css={css({

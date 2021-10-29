@@ -8,15 +8,16 @@ import 'animate.css';
 import AboutMe from "./components/sections/AboutMe";
 import Experience from "./components/sections/Experience";
 
-import { Box } from '@chakra-ui/layout'
+import { Box, Flex } from '@chakra-ui/layout'
+import Projects from "./components/sections/Projects";
 
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    {/* <ColorModeSwitcher /> */}
     <Hero />
     <AboutMe />
     <Experience />
+    <Projects />
     <Box height='100vh' />
-  </ChakraProvider>
+</ChakraProvider>
 )
