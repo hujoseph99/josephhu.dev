@@ -10,6 +10,7 @@ import Experience from "./components/sections/Experience";
 
 import { Box, Flex } from '@chakra-ui/layout'
 import Projects from "./components/sections/Projects";
+import NextSteps from "./components/sections/NextSteps";
 
 
 export const App = () => (
@@ -18,6 +19,6 @@ export const App = () => (
     <AboutMe />
     <Experience />
     <Projects />
-    <Box height='100vh' />
+    <NextSteps />
 </ChakraProvider>
 )
