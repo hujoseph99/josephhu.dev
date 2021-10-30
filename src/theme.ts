@@ -21,6 +21,9 @@ const theme = extendTheme({
       },
     }
   },
+  shadows: {
+    outline: '0 0 0 0px',
+  }
 });
 
 export default theme;
