@@ -20,11 +20,11 @@ export const Hero = () => {
 	return (
 		<SimpleGrid
 			bgColor='gray.900' 
+      width='100%'
 			height='100vh' 
-			width='100vw'
-      maxWidth='100%'
 			columns={[6, null, null, 12]}
       padding={[10]}
+      overflow='hidden'
 		>
 			<GridItem colSpan={6} height='75vh'>
 				<Flex width='full' height='full' alignItems='center' justifyContent={isLarge ? 'flex-end' : 'center'}>

@@ -13,12 +13,12 @@ const AboutMe = () => {
   return (
     <SimpleGrid 
       bgColor='gray.800' 
-      width='100vw'
-      maxWidth='100%'
+      width='100%'
       columns={[1, null, null, 2]}
       padding={[10]}
       paddingY="5rem"
       spacingX={['1rem', null, null, '3rem', '6rem']}
+      overflow='hidden'
     >
       {isLarge && (
         <GridItem display='flex' justifyContent='flex-end' alignItems='center'>

@@ -5,7 +5,7 @@ import Button from '../common/Button';
 const NextSteps = () => {
   return (
     <Flex
-      width='100vw'
+      width='100%'
       height='100vh'
       flexDirection='column'
       bgColor="gray.900"
@@ -25,9 +25,9 @@ const NextSteps = () => {
           What's Next? 
           <Text as='span' color='cyan'> Get in Touch</Text>
         </Text>
-        <Text textAlign='center' mb={10}>
+        <Text textAlign='center' mb={10} fontSize='sm'>
           I’m currently looking for Summer 2022 intership opportunities, so don’t hesitate reach 
-          out! Whether you have questions or just want to say hi, I’m always up for a conversation!
+          out! Whether you have questions or just want to say hi, I’m always up for a conversatio
         </Text>
         <Button text='Say Hello' />
       </Flex>

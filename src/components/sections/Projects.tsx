@@ -17,12 +17,12 @@ const Projects = () => {
   return (
     <Flex
       flexDirection='column'
-      width='100vw'
-      maxW='100%'
+      width='100%'
       bgColor="gray.800"
       justifyContent='center'
       alignContent='center'
       paddingY="7rem"
+      overflow='hidden'
     >
       <SimpleGrid 
         width='100%'

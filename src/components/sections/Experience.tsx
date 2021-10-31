@@ -9,12 +9,12 @@ import HighlightText from '../common/HighlightText';
 
 const Experience = () => (
   <Flex
-    width='100vw'
-    maxW='100%'
+    width='100%'
     bgColor="gray.900"
     justifyContent='center'
     alignContent='center'
     paddingY="7rem"
+    overflow='hidden'
   >
     <VStack>
       <Heading text='Experience' paddingX={10} />
