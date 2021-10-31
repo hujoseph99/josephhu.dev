@@ -27,7 +27,7 @@ const NextSteps = () => {
         </Text>
         <Text textAlign='center' mb={10} fontSize='sm'>
           I’m currently looking for Summer 2022 intership opportunities, so don’t hesitate reach 
-          out! Whether you have questions or just want to say hi, I’m always up for a conversatio
+          out! Whether you have questions or just want to say hi, I’m always up for a conversation.
         </Text>
         <Button text='Say Hello' />
       </Flex>

@@ -21,7 +21,7 @@ export const Hero = () => {
 		<SimpleGrid
 			bgColor='gray.900' 
       width='100%'
-			height='100vh' 
+			height='100%' 
 			columns={[6, null, null, 12]}
       padding={[10]}
       overflow='hidden'
