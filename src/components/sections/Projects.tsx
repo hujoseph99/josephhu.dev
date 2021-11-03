@@ -23,6 +23,7 @@ const Projects = () => {
       alignContent='center'
       paddingY="7rem"
       overflow='hidden'
+      id='projects'
     >
       <SimpleGrid 
         width='100%'

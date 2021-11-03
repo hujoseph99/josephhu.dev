@@ -12,15 +12,14 @@ import HighlightText from '../common/HighlightText';
 import Button from '../common/Button';
 import { ReactComponent as Avatar } from '../../assets/avatar.svg';
 import { ReactComponent as AvatarBlob } from '../../assets/avatar_blob.svg';
-import Navbar from './Navbar';
+import Navbar from '../common/navbar/Navbar';
 
 export const Hero = () => {
 	const [hovering, setHovering] = useState(false);
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
 
 	return (
-				
-		<Flex bgColor='gray.900' width='100%' height='100vh' flexDir='column'>
+		<Flex bgColor='gray.900' width='100%' height='100vh' flexDir='column' id='hero'>
 			<Navbar />
 			<SimpleGrid
 				columns={[6, null, null, 12]}
@@ -59,7 +58,7 @@ export const Hero = () => {
 								I'm a software engineer that specializes in web development. 
 								I currently work as a full-stack developer at <HighlightText text='Adeptmind' />.
 							</Text>
-							<Button mt={12} text='Get in Touch'/>
+							<Button mt={12} text='Get in Touch' onClick={() => window.open('mailto:hujoseph99@gmail.com')} />
 						</Flex>
 					</Flex>
 				</GridItem>

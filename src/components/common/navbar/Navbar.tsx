@@ -1,17 +1,18 @@
 import * as React from 'react';
 
-import { ReactComponent as Logo } from '../../assets/logo.svg'
-import { Flex, Text } from '@chakra-ui/layout';
-import Button from '../common/Button';
+import { Flex } from '@chakra-ui/layout';
+import Button from '../Button';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import { HamburgerIcon } from '@chakra-ui/icons';
+import NavbarLink from './NavbarLink';
+import Logo from './Logo';
 
 const Navbar = () => {
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
 
   return (
     <Flex
-      height={['4rem', null, null, '6rem']}
+      height={['4rem', null, null, '5rem']}
       width='100%'
       position='fixed'
       zIndex='overlay'
@@ -27,7 +28,7 @@ const Navbar = () => {
         alignItems='center'
         justifyContent='space-between'
       >
-        <Logo width={isLarge ? '3rem' : '2.2rem'} height={isLarge ? '3rem' : '2.2rem'} />
+        <Logo />
         {
           isLarge ? (
             <Flex
@@ -36,10 +37,10 @@ const Navbar = () => {
               justifyContent='space-around'
               alignItems='center'
             >
-              <Text fontSize='md'>About me</Text>
-              <Text fontSize='md'>Projects</Text>
-              <Text fontSize='md'>Experience</Text>
-              <Text fontSize='md'>Contact me</Text>
+              <NavbarLink text='About me' href='about' />
+              <NavbarLink text='Experience' href='experience' />
+              <NavbarLink text='Projects' href='projects' />
+              <NavbarLink text='Contact me' href='contact' />
               <Button text="Resume" />
             </Flex>
           ) : (

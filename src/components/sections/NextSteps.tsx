@@ -13,6 +13,7 @@ const NextSteps = () => {
       justifyContent='center'
       alignItems='center'
       paddingX={5}
+      id='contact'
     >
       <Flex flexDir='column' maxW='30rem' width='100%' alignItems='center'>
         <Text 
@@ -29,7 +30,7 @@ const NextSteps = () => {
           I’m currently looking for Summer 2022 intership opportunities, so don’t hesitate reach 
           out! Whether you have questions or just want to say hi, I’m always up for a conversation.
         </Text>
-        <Button text='Say Hello' />
+        <Button text='Say Hello' onClick={() => window.open('mailto:hujoseph99@gmail.com')} />
       </Flex>
     </Flex>
   )

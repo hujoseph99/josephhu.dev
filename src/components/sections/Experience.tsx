@@ -15,6 +15,7 @@ const Experience = () => (
     alignContent='center'
     paddingY="7rem"
     overflow='hidden'
+    id='experience'
   >
     <VStack>
       <Heading text='Experience' paddingX={10} />
