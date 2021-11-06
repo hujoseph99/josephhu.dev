@@ -18,7 +18,7 @@ const SectionContainer = ({
   <Flex
     width='100%'
     height={isFullScreen ? '100vh' : 'fit-content'}
-    color={isPrimary ? 'gray.900' : 'gray.800'}
+    bgColor={isPrimary ? 'gray.900' : 'gray.800'}
     alignContent='center'
     justifyContent='center'
     paddingX={10}

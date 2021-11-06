@@ -67,7 +67,7 @@ export const Hero = () => {
 						colSpan={1}
 						display='flex'
 						alignItems='center'
-						justifyContent='center'
+						justifyContent='flex-end'
 					>
 						<Box 
 							position='absolute' 
@@ -86,6 +86,7 @@ export const Hero = () => {
 							maxWidth='15rem' 
 							maxHeight='15rem' 
 							mb='3rem'
+							mr='8rem'
 						>
 							<Avatar />
 						</Box>

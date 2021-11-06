@@ -11,10 +11,12 @@ import Experience from "./components/sections/Experience";
 import { Box, Flex } from '@chakra-ui/layout'
 import Projects from "./components/sections/Projects";
 import NextSteps from "./components/sections/NextSteps";
+import Navbar from "./components/common/navbar/Navbar";
 
 
 export const App = () => (
   <ChakraProvider theme={theme}>
+    <Navbar />
     <Hero />
     <AboutMe />
     <Experience />

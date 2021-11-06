@@ -19,12 +19,15 @@ const Navbar = () => {
       bgColor='gray.900'
       opacity={0.975}
       boxShadow='0 0px 25px -10px black'
+      justifyContent='center'
+      alignItems='center'
+      paddingX={10}
     >
       <Flex
         flexDir='row'
         height='100%'
         width='100%'
-        paddingX={[6, null, null, 12]}
+        maxWidth='80rem'
         alignItems='center'
         justifyContent='space-between'
       >
@@ -34,7 +37,7 @@ const Navbar = () => {
             <Flex
               flexDir='row'
               width='50rem'
-              justifyContent='space-around'
+              justifyContent='space-between'
               alignItems='center'
             >
               <NavbarLink text='About me' href='about' />
