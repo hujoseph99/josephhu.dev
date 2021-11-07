@@ -15,7 +15,7 @@ const theme = extendTheme({
     global: {
       p: {
         fontSize: {
-          base: "sm",
+          base: "md",
         },
         color: "gray.400"
       },
