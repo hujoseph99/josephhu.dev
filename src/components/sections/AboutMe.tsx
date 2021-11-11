@@ -8,6 +8,7 @@ import HighlightText from '../common/HighlightText';
 import Bullet from '../common/Bullet';
 import SectionContainer from '../common/SectionContainer';
 import { css } from '@emotion/react';
+import Svgs from '../svgs/Svgs';
 
 const AboutMe = () => {
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
@@ -26,9 +27,9 @@ const AboutMe = () => {
             justifyContent='flex-start' 
             mr={4} 
             height='16rem' 
-            overflow='hidden' 
+            overflow='hidden'
           >
-            <Illustration width='30rem' height='30rem' />
+            <Svgs name='about_me' width='30rem' height='30rem' />
           </GridItem>
         )}
         <GridItem display='flex' justifyContent={isLarge ? 'flex-start' : 'center'} alignItems='center'>
