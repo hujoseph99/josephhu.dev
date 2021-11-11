@@ -7,16 +7,16 @@ import Avatar from './Avatar';
 import Blob from './Blob';
 import Logo from './Logo';
 
-type nameType = '' | 'external' | 'github' | 'about_me' | 'avatar_blob' | 'avatar' | 'logo';
+export type SVGNameType = '' | 'external' | 'github' | 'about_me' | 'avatar_blob' | 'avatar' | 'logo';
 
-interface SvgsProps extends React.SVGProps<SVGSVGElement> {
-  name: nameType;
+interface SVGProps extends React.SVGProps<SVGSVGElement> {
+  name: SVGNameType;
 }
 
-const Svgs = ({
+const SVGs = ({
   name = '',
   ...props
-}: SvgsProps)  => {
+}: SVGProps)  => {
   switch (name) {
     case 'external':
       return <ExternalIcon {...props} />;
@@ -35,4 +35,4 @@ const Svgs = ({
   }
 }
 
-export default Svgs;
+export default SVGs;

@@ -10,7 +10,7 @@ import { useMediaQuery, Box } from '@chakra-ui/react';
 import HighlightText from '../common/HighlightText';
 import Button from '../common/Button';
 import SectionContainer from '../common/SectionContainer';
-import Svgs from '../svgs/Svgs';
+import SVGs from '../svgs/SVGs.tsx';
 
 export const Hero = () => {
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
@@ -76,7 +76,7 @@ export const Hero = () => {
 							maxHeight='32rem' 
 							transform='rotate(180deg)'
 						>
-							<Svgs name='avatar_blob' />
+							<SVGs name='avatar_blob' />
 						</Box>
 						<Box 
 							position='absolute' 
@@ -86,7 +86,7 @@ export const Hero = () => {
 							maxHeight='15rem' 
 							mb='3rem'
 						>
-							<Svgs name='avatar' />
+							<SVGs name='avatar' />
 						</Box>
 					</GridItem>
 				)}

@@ -3,7 +3,7 @@ import * as React from 'react';
 import { IconButton } from '@chakra-ui/button';
 import { useMediaQuery } from '@chakra-ui/media-query';
 
-import Svgs from '../../svgs/Svgs';
+import SVGs from '../../svgs/SVGs';
 
 const Logo = (): JSX.Element => {
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
@@ -19,7 +19,7 @@ const Logo = (): JSX.Element => {
       variant='unstyled'
       onClick={handleClick}
       icon={(
-        <Svgs 
+        <SVGs 
           name='logo'
           width={isLarge ? '3rem' : '2.2rem'} 
           height={isLarge ? '3rem' : '2.2rem'} 
