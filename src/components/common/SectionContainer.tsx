@@ -22,7 +22,7 @@ const SectionContainer = ({
     alignContent='center'
     justifyContent='center'
     paddingX={10}
-    paddingY={isFullScreen ? 10 : '5rem'}
+    paddingY={isFullScreen ? 10 : '7rem'}
     id={id}
   >
     <Box

@@ -1,9 +1,9 @@
-import { ChevronRightIcon } from '@chakra-ui/icons';
-import { HStack, Text } from '@chakra-ui/layout';
 import * as React from 'react';
 
+import { HStack, Text } from '@chakra-ui/layout';
+
 interface BulletProps {
-  text: string | JSX.Element;
+  text: string | React.ReactNode;
 };
 
 const Bullet = ({ text = '' }: BulletProps) => (
