@@ -7,6 +7,7 @@ import Heading from '../common/Heading';
 import HighlightText from '../common/HighlightText';
 import Bullet from '../common/Bullet';
 import SectionContainer from '../common/SectionContainer';
+import { css } from '@emotion/react';
 
 const AboutMe = () => {
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
@@ -18,7 +19,15 @@ const AboutMe = () => {
         columns={[1, null, null, 2]}
       >
         {isLarge && (
-          <GridItem display='flex' alignItems='center' justifyContent='flex-start' mr={4}>
+          <GridItem 
+            display='flex' 
+            alignSelf='center'
+            alignItems='center' 
+            justifyContent='flex-start' 
+            mr={4} 
+            height='16rem' 
+            overflow='hidden' 
+          >
             <Illustration width='30rem' height='30rem' />
           </GridItem>
         )}
