@@ -6,17 +6,25 @@ import { Text, TextProps } from '@chakra-ui/layout';
 interface NavbarLinkProps extends TextProps {
   text?: string;
   href?: string;
+  closeDrawer?: () => void | undefined;
 }
 
 const NavbarLink = ({
   text = '',
   href = '#',
+  closeDrawer = undefined,
+  ...props
 }: NavbarLinkProps): JSX.Element => {
   const [hovering, setHovering] = React.useState(false);
 
   const handleClick = () => {
     const element = document.getElementById(href);
-    element?.scrollIntoView({ behavior: 'smooth' });
+    if (closeDrawer) {
+      closeDrawer();
+      element?.scrollIntoView();
+    } else {
+      element?.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -29,6 +37,7 @@ const NavbarLink = ({
       css={css`
         cursor: pointer;
       `}
+      {...props}
     >
       {text}
     </Text>

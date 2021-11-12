@@ -49,18 +49,10 @@ const AboutMe = () => {
               spacingY={1}
               width='full'
             >
-              <GridItem>
-                <Bullet text="Typescript" />
-              </GridItem>
-              <GridItem>
-                <Bullet text="React" />
-              </GridItem>
-              <GridItem>
-                <Bullet text="Go" />
-              </GridItem>
-              <GridItem>
-                <Bullet text="Python" />
-              </GridItem>
+              <GridItem><Bullet text="Typescript" /></GridItem>
+              <GridItem><Bullet text="React" /></GridItem>
+              <GridItem><Bullet text="Go" /></GridItem>
+              <GridItem><Bullet text="Python" /></GridItem>
             </SimpleGrid>
           </Flex>
         </GridItem>
