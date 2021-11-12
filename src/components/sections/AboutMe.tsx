@@ -1,13 +1,12 @@
 import * as React from 'react';
 
-import { Box, Flex, GridItem, SimpleGrid, Text, VStack } from '@chakra-ui/layout';
+import { Flex, GridItem, SimpleGrid, Text } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { ReactComponent as Illustration } from '../../assets/about_me.svg'
+
 import Heading from '../common/Heading';
 import HighlightText from '../common/HighlightText';
 import Bullet from '../common/Bullet';
 import SectionContainer from '../common/SectionContainer';
-import { css } from '@emotion/react';
 import SVGs from '../svgs/SVGs';
 
 const AboutMe = () => {
