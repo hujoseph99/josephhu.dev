@@ -30,13 +30,20 @@ const projectData: ProjectDataType[] = [
         your friends!
       </Text>,
       <Text>
-        This is a <HighlightText text="full-stack" /> web app that is built on top of 
-        <HighlightText text=" React" />, <HighlightText text="Go" />, and 
-        <HighlightText text=" MongoDB" />. It also incorporates various other technologies 
-        such as <HighlightText text="OAuth" />, <HighlightText text="JWT" />, 
-        <HighlightText text=" GraphQL" />, <HighlightText text="Redux" />, and 
-        <HighlightText text=" Websockets" />.
-      </Text>
+        This is a <HighlightText text="full-stack web app" /> that is built using the following
+        technologies:
+      </Text>,
+      <SimpleGrid
+        columns={[1, 2]}
+        spacingY={1}
+      >
+        <GridItem><Bullet text="React" /></GridItem>
+        <GridItem><Bullet text="Go" /></GridItem>
+        <GridItem><Bullet text="MongoDB" /></GridItem>
+        <GridItem><Bullet text="OAuth" /></GridItem>
+        <GridItem><Bullet text="GraphQL" /></GridItem>
+        <GridItem><Bullet text="Websockets" /></GridItem>
+      </SimpleGrid>
     ],
     links: [
       {

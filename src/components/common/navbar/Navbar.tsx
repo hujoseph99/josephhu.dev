@@ -75,6 +75,7 @@ const Navbar = () => {
                     </Flex>
                     <Flex flexDir='column' alignItems='center'>
                       <Text fontSize='2xl' color='gray.100' fontWeight='extrabold' mb='3rem'>Go To...</Text>
+                      <NavbarLink text='Home' href='hero' closeDrawer={onClose} mb='2.3rem' />
                       <NavbarLink text='About me' href='about' closeDrawer={onClose} mb='2.3rem' />
                       <NavbarLink text='Experience' href='experience' closeDrawer={onClose} mb='2.3rem' />
                       <NavbarLink text='Projects' href='projects' closeDrawer={onClose} mb='2.3rem' />
