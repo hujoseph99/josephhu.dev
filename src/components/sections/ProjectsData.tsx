@@ -5,6 +5,7 @@ import { GridItem, SimpleGrid, Text } from '@chakra-ui/layout';
 import HighlightText from '../common/HighlightText';
 import DevRacerIllustration from '../../assets/devracer.png';
 import SudokuIllustration from '../../assets/sudoku.png';
+import SisteringIllustration from '../../assets/sistering.png';
 import Bullet from '../common/Bullet';
 import { SVGNameType } from '../svgs/SVGs';
 
@@ -95,7 +96,7 @@ const projectData: ProjectDataType[] = [
         I am currently working as a <HighlightText text='senior developer' /> on the
         <HighlightText text=' Sistering' /> team at <HighlightText text='UW Blueprint' /> — a 
         student-run initiative to help build tech solutions for non-profits. I will be leveraging my
-        experience to mentor juniors and influence the direction of the product.
+        experience to mentor juniors and help direct the project.
       </Text>,
       <Text>
         This will be a <HighlightText text='full-stack web app' /> incorporating:
@@ -118,7 +119,7 @@ const projectData: ProjectDataType[] = [
         link: 'https://github.com/uwblueprint/sistering'
       },
     ],
-    image: SudokuIllustration
+    image: SisteringIllustration
   },
   
 ];
