@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "/personal-portfolio",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
