@@ -44,21 +44,22 @@ export const Hero = () => {
 					</Text>
 					<Text 
 						color='gray.50' 
-						fontSize={['4xl', null, null, '6xl']} 
+						fontSize={['4xl', null, null, '5xl']} 
 						fontWeight='normal'
 						lineHeight={1}
 						mt={4}
 					>
-						I build all things web.
+						I'm a software developer.
 					</Text>
 					<Text mt={4}>
-						I'm a software engineer that specializes in web development. 
-						I currently work as a full-stack developer at <HighlightText text='Adeptmind' />.
+						I enjoy building exceptional software solutions for tough problems. Currently, I'm a 
+						fourth-year computer science student working as a full-stack developer at 
+						<HighlightText text=' Adeptmind' />.
 					</Text>
 					<Button 
 						mt={12} 
-						text='Get in Touch' 
-						onClick={() => window.open('mailto:j268hu@uwaterloo.ca')}
+						text='Check out my resume!' 
+						onClick={() => window.open('./JosephHuResume.pdf')}
 					/>
 				</GridItem>
 				{isLarge && (
