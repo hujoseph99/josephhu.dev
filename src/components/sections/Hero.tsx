@@ -58,7 +58,7 @@ export const Hero = () => {
 					<Button 
 						mt={12} 
 						text='Get in Touch' 
-						onClick={() => window.open('mailto:hujoseph99@gmail.com')}
+						onClick={() => window.open('mailto:j268hu@uwaterloo.ca')}
 					/>
 				</GridItem>
 				{isLarge && (

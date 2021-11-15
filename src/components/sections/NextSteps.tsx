@@ -23,7 +23,7 @@ const NextSteps = () => {
           I’m currently looking for Summer 2022 intership opportunities, so don’t hesitate reach 
           out! Whether you have questions or just want to say hi, I’m always up for a conversation.
         </Text>
-        <Button text='Say Hello' onClick={() => window.open('mailto:hujoseph99@gmail.com')} />
+        <Button text='Say Hello' onClick={() => window.open('mailto:j268hu@uwaterloo.ca')} />
       </Flex>
     </SectionContainer>
   )
