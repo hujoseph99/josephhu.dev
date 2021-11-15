@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1337a68f.chunk.js",
+    "main.js.map": "/static/js/main.1337a68f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
+    "static/css/2.d168773f.chunk.css": "/static/css/2.d168773f.chunk.css",
+    "static/js/2.323a6c88.chunk.js": "/static/js/2.323a6c88.chunk.js",
+    "static/js/2.323a6c88.chunk.js.map": "/static/js/2.323a6c88.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d168773f.chunk.css.map": "/static/css/2.d168773f.chunk.css.map",
+    "static/js/2.323a6c88.chunk.js.LICENSE.txt": "/static/js/2.323a6c88.chunk.js.LICENSE.txt",
+    "static/media/devracer.52f9f865.png": "/static/media/devracer.52f9f865.png",
+    "static/media/index.css": "/static/media/poppins-latin-ext-400-normal.53f1614b.woff2",
+    "static/media/sistering.e6ef40c6.png": "/static/media/sistering.e6ef40c6.png",
+    "static/media/sudoku.a9a6d6d8.png": "/static/media/sudoku.a9a6d6d8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2e8e232.js",
+    "static/css/2.d168773f.chunk.css",
+    "static/js/2.323a6c88.chunk.js",
+    "static/js/main.1337a68f.chunk.js"
+  ]
+}
