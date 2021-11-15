@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/personal-portfolio/static/js/main.1337a68f.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.1337a68f.chunk.js.map",
-    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.bd28b5a7.js",
-    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.bd28b5a7.js.map",
-    "static/css/2.178aff4c.chunk.css": "/personal-portfolio/static/css/2.178aff4c.chunk.css",
-    "static/js/2.323a6c88.chunk.js": "/personal-portfolio/static/js/2.323a6c88.chunk.js",
-    "static/js/2.323a6c88.chunk.js.map": "/personal-portfolio/static/js/2.323a6c88.chunk.js.map",
-    "index.html": "/personal-portfolio/index.html",
-    "static/css/2.178aff4c.chunk.css.map": "/personal-portfolio/static/css/2.178aff4c.chunk.css.map",
-    "static/js/2.323a6c88.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.323a6c88.chunk.js.LICENSE.txt",
-    "static/media/devracer.52f9f865.png": "/personal-portfolio/static/media/devracer.52f9f865.png",
-    "static/media/index.css": "/personal-portfolio/static/media/poppins-latin-ext-400-normal.53f1614b.woff2",
-    "static/media/sistering.e6ef40c6.png": "/personal-portfolio/static/media/sistering.e6ef40c6.png",
-    "static/media/sudoku.a9a6d6d8.png": "/personal-portfolio/static/media/sudoku.a9a6d6d8.png"
+    "main.js": "/static/js/main.1337a68f.chunk.js",
+    "main.js.map": "/static/js/main.1337a68f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2e8e232.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2e8e232.js.map",
+    "static/css/2.d168773f.chunk.css": "/static/css/2.d168773f.chunk.css",
+    "static/js/2.323a6c88.chunk.js": "/static/js/2.323a6c88.chunk.js",
+    "static/js/2.323a6c88.chunk.js.map": "/static/js/2.323a6c88.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d168773f.chunk.css.map": "/static/css/2.d168773f.chunk.css.map",
+    "static/js/2.323a6c88.chunk.js.LICENSE.txt": "/static/js/2.323a6c88.chunk.js.LICENSE.txt",
+    "static/media/devracer.52f9f865.png": "/static/media/devracer.52f9f865.png",
+    "static/media/index.css": "/static/media/poppins-latin-ext-400-normal.53f1614b.woff2",
+    "static/media/sistering.e6ef40c6.png": "/static/media/sistering.e6ef40c6.png",
+    "static/media/sudoku.a9a6d6d8.png": "/static/media/sudoku.a9a6d6d8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd28b5a7.js",
-    "static/css/2.178aff4c.chunk.css",
+    "static/js/runtime-main.c2e8e232.js",
+    "static/css/2.d168773f.chunk.css",
     "static/js/2.323a6c88.chunk.js",
     "static/js/main.1337a68f.chunk.js"
   ]
