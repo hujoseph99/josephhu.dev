@@ -10,7 +10,6 @@ import { Drawer, DrawerBody, DrawerContent, DrawerOverlay } from '@chakra-ui/mod
 import NavbarLink from './NavbarLink';
 import Logo from './Logo';
 import Button from '../Button';
-import Resume from '../../../assets/JosephHuResume.pdf';
 
 const Navbar = () => {
 	const [isLarge] = useMediaQuery('(min-width: 62em)');
@@ -50,7 +49,7 @@ const Navbar = () => {
               <NavbarLink text='Experience' href='experience' />
               <NavbarLink text='Projects' href='projects' />
               <NavbarLink text='Contact me' href='contact' />
-              <Button text="Resume" onClick={() => window.open(Resume)} />
+              <Button text="Resume" onClick={() => window.open('./JosephHuResume.pdf')} />
             </Flex>
           ) : (
             <>
@@ -81,7 +80,7 @@ const Navbar = () => {
                       <NavbarLink text='Experience' href='experience' closeDrawer={onClose} mb='2.3rem' />
                       <NavbarLink text='Projects' href='projects' closeDrawer={onClose} mb='2.3rem' />
                       <NavbarLink text='Contact me' href='contact' closeDrawer={onClose} mb='3rem' />
-                      <Button text="Resume" size='lg' onClick={() => window.open(Resume)} />
+                      <Button text="Resume" size='lg' onClick={() => window.open('./JosephHuResume.pdf')} />
                     </Flex>
                     <Box></Box>
                   </DrawerBody>
