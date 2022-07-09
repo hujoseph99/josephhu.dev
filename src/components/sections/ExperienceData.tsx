@@ -1,7 +1,7 @@
-import * as React from 'react';
+import * as React from "react";
 
-import { Text } from '@chakra-ui/layout';
-import HighlightText from '../common/HighlightText';
+import { Text } from "@chakra-ui/layout";
+import HighlightText from "../common/HighlightText";
 
 interface ExperienceDataType {
   jobTitle: string;
@@ -12,107 +12,143 @@ interface ExperienceDataType {
 
 const experienceData: ExperienceDataType[] = [
   {
-    jobTitle: 'Full Stack Developer',
-    company: 'Adeptmind',
-    duration: 'August 2021 - Present',
+    jobTitle: "Software Engineering Intern",
+    company: "Databricks",
+    duration: "May 2022 - Present",
     bullets: [
       <Text>
-        Overhauled <HighlightText text='image resizing pipeline' /> to support next-generation image
-        formats of multiple sizes, greatly increasing our <HighlightText text='SEO scores' />
+        Improved <HighlightText text="DBSQL autocomplete" /> to support
+        user-defined functions and dynamically fetched functions in
+        <HighlightText text=" TypeScript" />, opening new avenues for SQL Editor
+        users and increasing function coverage by <HighlightText text="20%" />
       </Text>,
       <Text>
-        Designed <HighlightText text='background color detection' /> algorithm for images, integrated
-        it into our <HighlightText text='data processing pipeline' />, and then applied it on the 
-        frontend to give a consistent look to our product catalogue
+        Created a <HighlightText text="PoC" /> for generating
+        <HighlightText text=" DBSQL parsers" /> using
+        <HighlightText text=" ANTLR" /> and the
+        <HighlightText text=" SparkSQL grammar" />, increasing the code coverage
+        of our parser from <HighlightText text="40%" /> to
+        <HighlightText text=" 99%" /> and reducing the number of false error
+        highlights by <HighlightText text="80%" />
       </Text>,
-      <Text>
-        Currently upgrading our <HighlightText text='Prefect' /> integrations to use the latest 
-        best-practices, increasing its maintainability and scalability
-      </Text>,
-    ]
+    ],
   },
   {
-    jobTitle: 'Software Developer',
-    company: 'StackAdapt',
-    duration: 'Jan 2021 - Apr 2021',
+    jobTitle: "Full Stack Developer",
+    company: "Adeptmind",
+    duration: "August 2021 - Present",
     bullets: [
       <Text>
-        Contributed towards <HighlightText text="significantly" /> increasing the productivity of 
-        power users by developing several core components of a bulk-editor feature using 
-        <HighlightText text=" React/Redux" /> in <HighlightText text="Typescript" />
+        Overhauled <HighlightText text="image resizing pipeline" /> to support
+        next-generation image formats of multiple sizes, greatly increasing our{" "}
+        <HighlightText text="SEO scores" />
       </Text>,
       <Text>
-        Modified <HighlightText text="Rails" /> backend and <HighlightText text="Go " /> 
+        Designed <HighlightText text="background color detection" /> algorithm
+        for images, integrated it into our{" "}
+        <HighlightText text="data processing pipeline" />, and then applied it
+        on the frontend to give a consistent look to our product catalogue
+      </Text>,
+      <Text>
+        Currently upgrading our <HighlightText text="Prefect" /> integrations to
+        use the latest best-practices, increasing its maintainability and
+        scalability
+      </Text>,
+    ],
+  },
+  {
+    jobTitle: "Software Developer",
+    company: "StackAdapt",
+    duration: "Jan 2021 - Apr 2021",
+    bullets: [
+      <Text>
+        Contributed towards <HighlightText text="significantly" /> increasing
+        the productivity of power users by developing several core components of
+        a bulk-editor feature using
+        <HighlightText text=" React/Redux" /> in{" "}
+        <HighlightText text="Typescript" />
+      </Text>,
+      <Text>
+        Modified <HighlightText text="Rails" /> backend and{" "}
+        <HighlightText text="Go " />
         microservices to introduce new datasets into user-requested reports
       </Text>,
       <Text>
-          Ensured code quality by actively participating in <HighlightText text="code reviews " /> 
-          and promoting unit tests on frontend
-      </Text>
-    ]
+        Ensured code quality by actively participating in{" "}
+        <HighlightText text="code reviews " />
+        and promoting unit tests on frontend
+      </Text>,
+    ],
   },
   {
-    jobTitle: 'Software Developer',
-    company: 'Thomson Reuters',
-    duration: 'May 2020 - Sep 2020',
+    jobTitle: "Software Developer",
+    company: "Thomson Reuters",
+    duration: "May 2020 - Sep 2020",
     bullets: [
       <Text>
-        Developed web pages and API endpoints using <HighlightText text="ASP.NET" /> MVC framework 
-        handled by <HighlightText text="1,000+" /> clients
+        Developed web pages and API endpoints using{" "}
+        <HighlightText text="ASP.NET" /> MVC framework handled by{" "}
+        <HighlightText text="1,000+" /> clients
       </Text>,
       <Text>
-        Investigated numerous complex bugs by deep-diving into a multi-tiered codebase with 
+        Investigated numerous complex bugs by deep-diving into a multi-tiered
+        codebase with
         <HighlightText text=" 16,000+" /> files
       </Text>,
       <Text>
-        Worked in an <HighlightText text="Agile Scrum" /> environment to effectively meet deadlines 
-        and strengthen team cohesion
-      </Text>
-    ]
+        Worked in an <HighlightText text="Agile Scrum" /> environment to
+        effectively meet deadlines and strengthen team cohesion
+      </Text>,
+    ],
   },
   {
-    jobTitle: 'Software Engineer',
-    company: 'PointClickCare',
-    duration: 'Sep 2019 – Dec 2019',
+    jobTitle: "Software Engineer",
+    company: "PointClickCare",
+    duration: "Sep 2019 – Dec 2019",
     bullets: [
       <Text>
-        Developed security functions for numerous <HighlightText text="API" /> endpoints using 
+        Developed security functions for numerous <HighlightText text="API" />{" "}
+        endpoints using
         <HighlightText text=" Java/Spring" /> to prevent JSON injection
       </Text>,
       <Text>
-        Utilized <HighlightText text="Selenium" /> and the <HighlightText text="POM" /> to create 
-        both unit and E2E tests, increasing code coverage by <HighlightText text="~10%" />
+        Utilized <HighlightText text="Selenium" /> and the{" "}
+        <HighlightText text="POM" /> to create both unit and E2E tests,
+        increasing code coverage by <HighlightText text="~10%" />
       </Text>,
       <Text>
-        Created stored procedures and queries using <HighlightText text="SQL" /> to manage and 
-        update <HighlightText text="100+" /> production databases
+        Created stored procedures and queries using <HighlightText text="SQL" />{" "}
+        to manage and update <HighlightText text="100+" /> production databases
       </Text>,
     ],
   },
   {
-    jobTitle: 'Software Developer',
-    company: 'Finastra',
-    duration: 'Jan 2019 – Apr 2019',
+    jobTitle: "Software Developer",
+    company: "Finastra",
+    duration: "Jan 2019 – Apr 2019",
     bullets: [
       <Text>
-        Facilitated the <HighlightText text="migration" /> of message-oriented middlewares resulting 
-        in a more maintainable codebase
+        Facilitated the <HighlightText text="migration" /> of message-oriented
+        middlewares resulting in a more maintainable codebase
       </Text>,
       <Text>
-        Developed and updated a robust set of <HighlightText text="API" /> endpoints with 
+        Developed and updated a robust set of <HighlightText text="API" />{" "}
+        endpoints with
         <HighlightText text=" ASP.NET" /> given a set of specifications
       </Text>,
       <Text>
-        Implemented a system for dynamic endpoint retrieval from 
-        <HighlightText text=" design to production" /> using <HighlightText text="SQL" /> and 
+        Implemented a system for dynamic endpoint retrieval from
+        <HighlightText text=" design to production" /> using{" "}
+        <HighlightText text="SQL" /> and
         <HighlightText text=" C#" />
       </Text>,
       <Text>
-        Refactored an existing HTTP request factory to use template types, saving 
+        Refactored an existing HTTP request factory to use template types,
+        saving
         <HighlightText text=" 100+" /> lines for each model
-      </Text>
+      </Text>,
     ],
-  }
+  },
 ];
 
 export default experienceData;
