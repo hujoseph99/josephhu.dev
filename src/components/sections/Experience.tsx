@@ -26,6 +26,7 @@ const Experience = () => (
           css={css({
             paddingBottom: "2px",
             marginBottom: "-2px",
+            scrollbarWidth: "none",
             "::-webkit-scrollbar": { display: "none" },
             "button:focus": {
               boxShadow: "none !important",
@@ -59,4 +60,3 @@ const Experience = () => (
 );
 
 export default Experience;
-
