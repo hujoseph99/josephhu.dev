@@ -36,7 +36,7 @@ const experienceData: ExperienceDataType[] = [
   {
     jobTitle: "Full Stack Developer",
     company: "Adeptmind",
-    duration: "August 2021 - Present",
+    duration: "August 2021 - December 2021",
     bullets: [
       <Text>
         Overhauled <HighlightText text="image resizing pipeline" /> to support
